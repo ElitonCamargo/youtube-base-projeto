@@ -1,0 +1,57 @@
+Nesta atividade você deverá criar três projetos React-Native, utilizando os menus de navegação 
+✔️drawer
+✔️bottom-tabs
+✔️stack
+
+Usando o GIT crie três branch (Projeto01, Projeto02 e Projeto03) e crie cada um dos projetos em sua respectiva branch, para isso siga os passos abaixo.
+
+Antes de tudo configure seu user do git. Abra o terminal e digite: 
+
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
+ 
+
+1) Criando um novo projeto
+expo init NomeApp
+2) Entrando no projeto
+	cd NomeApp
+
+3) Instale as bibliotecas necessárias para testar o App no navegador; 
+	npm install react-native-web@~0.18.7 react-dom@18.0.0 @expo/webpack-config@^0.17.0
+
+4) Instalando bibliotecas de suporte à navegação
+	npm install @react-navigation/native
+	expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+5) Instalando bibliotecas de suporte a cada tipo especifico de navegação
+	npm install @react-navigation/drawer
+	npm install @react-navigation/bottom-tabs
+	npm install @react-navigation/stack
+
+6) Adicionando os components que serão nossas telas de navegação;
+
+
+7) Finalizando base do projeto.
+git add .
+git commit -m "Criando base do projeto"
+
+
+8) Criando os ramos git para cada projeto
+** Criando versões do seu projeto ****
+git branch projeto01
+plugins: ['react-native-reanimated/plugin'],
+
+git branch projeto02
+git branch projeto03
+
+
+	
+Acesse a primeira branch e cria as configurações necessárias para a navegação funcionar como Drawer;
+git checkout projeto01
+
+Acesse a segunda branch e cria as configurações necessárias para a navegação funcionar como BottomTabs;
+git checkout projeto02
+
+Acesse a Terceira branch e cria as configurações necessárias para a navegação funcionar como Stack;
+git checkout projeto03
+
